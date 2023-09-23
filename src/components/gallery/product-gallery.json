@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_gallery_product_galleries",
+  "info": {
+    "displayName": "ProductGallery",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

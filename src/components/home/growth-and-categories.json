@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_growth_and_categories",
+  "info": {
+    "displayName": "Growth and Categories",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Growth": {
+      "displayName": "Growth",
+      "type": "component",
+      "repeatable": true,
+      "component": "progress.growth"
+    },
+    "ServicesList": {
+      "displayName": "Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services"
+    }
+  }
+}

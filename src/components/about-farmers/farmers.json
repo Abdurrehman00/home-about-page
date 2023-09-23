@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_farmers_farmers",
+  "info": {
+    "displayName": "Farmers",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "farmerImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "farmerType": {
+      "type": "string"
+    },
+    "farmerName": {
+      "type": "string"
+    }
+  }
+}

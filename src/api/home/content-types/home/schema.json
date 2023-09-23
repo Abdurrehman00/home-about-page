@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.hero"
+    },
+    "CallToAction": {
+      "displayName": "Category",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.category"
+    },
+    "Progress": {
+      "displayName": "Growth and Categories",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.growth-and-categories"
+    },
+    "Featured": {
+      "displayName": "Featured",
+      "type": "component",
+      "repeatable": false,
+      "component": "featured.featured"
+    },
+    "SummerOffer": {
+      "displayName": "SummerOffer",
+      "type": "component",
+      "repeatable": false,
+      "component": "offer.summer-offer"
+    },
+    "ProductLabel": {
+      "displayName": "ProductLabel",
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery.product-label"
+    }
+  }
+}

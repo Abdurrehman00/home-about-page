@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "Description": {
+      "displayName": "Component",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.component"
+    },
+    "ourFarmers": {
+      "displayName": "Our Farmers",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-farmers.our-farmers"
+    },
+    "orderProcess": {
+      "displayName": "Order Process",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-order.order-process"
+    },
+    "knowUs": {
+      "displayName": "Get To Know Us",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-know-us.get-to-know-us"
+    }
+  }
+}

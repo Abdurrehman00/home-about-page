@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_about_order_order_processes",
+  "info": {
+    "displayName": "Order Process",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubHeading": {
+      "type": "string"
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.button"
+    },
+    "Process": {
+      "displayName": "Process",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-order.process"
+    },
+    "Description": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-order.description"
+    }
+  }
+}

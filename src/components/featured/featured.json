@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_featured_featureds",
+  "info": {
+    "displayName": "Featured",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CustomerChoice": {
+      "displayName": "FeaturedProducts",
+      "type": "component",
+      "repeatable": true,
+      "component": "featured.featured-products"
+    }
+  }
+}

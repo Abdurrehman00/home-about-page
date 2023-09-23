@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_know_us_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "text"
+    },
+    "Answers": {
+      "type": "text"
+    }
+  }
+}

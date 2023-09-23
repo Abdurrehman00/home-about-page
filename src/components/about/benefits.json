@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_about_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Benefits": {
+      "type": "text"
+    }
+  }
+}

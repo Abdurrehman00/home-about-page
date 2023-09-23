@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_about_components",
+  "info": {
+    "displayName": "Component",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Benefit": {
+      "displayName": "Benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.benefits"
+    },
+    "KeyFeatures": {
+      "displayName": "Key Features",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.key-features"
+    },
+    "Images": {
+      "displayName": "Images",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-images.images"
+    }
+  }
+}

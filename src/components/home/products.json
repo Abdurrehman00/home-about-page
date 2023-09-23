@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_products",
+  "info": {
+    "displayName": "Products",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "productImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

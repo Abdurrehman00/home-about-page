@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_know_us_get_to_know_uses",
+  "info": {
+    "displayName": "Get To Know Us",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubHeading": {
+      "type": "text"
+    },
+    "FAQ": {
+      "displayName": "FAQ",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-know-us.faq"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

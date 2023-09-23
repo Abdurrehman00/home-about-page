@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_progress_growths",
+  "info": {
+    "displayName": "Growth",
+    "icon": "arrowUp"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "integer"
+    },
+    "Label": {
+      "type": "string"
+    }
+  }
+}

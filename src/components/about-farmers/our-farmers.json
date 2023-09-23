@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_farmers_our_farmers",
+  "info": {
+    "displayName": "Our Farmers",
+    "icon": "store"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubHeading": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Farmers": {
+      "displayName": "Farmers",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-farmers.farmers"
+    }
+  }
+}

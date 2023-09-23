@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_gallery_product_labels",
+  "info": {
+    "displayName": "ProductLabel",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tags": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "galleryImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

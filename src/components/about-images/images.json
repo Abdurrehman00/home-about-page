@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_about_images_images",
+  "info": {
+    "displayName": "Images",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "aboutImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_offer_summer_offers",
+  "info": {
+    "displayName": "SummerOffer",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Offer": {
+      "displayName": "Offer",
+      "type": "component",
+      "repeatable": true,
+      "component": "offer.offer"
+    },
+    "PurchaseButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.button"
+    }
+  }
+}
